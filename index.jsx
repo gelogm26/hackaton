@@ -9,21 +9,19 @@ export default function ProductApp() {
   const [addedToCart, setAddedToCart] = useState(false);
 
   const product = {
-    name: "Auriculares Bluetooth Pro",
+    name: "",
     price: 149.99,
     originalPrice: 199.99,
     rating: 4.8,
     reviews: 2847,
     images: [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&h=400&fit=crop"
+      "https://motorkote.com.co/wp-content/uploads/2022/08/shutterstock_447424972-min-e1661983265874.jpg"
     ],
-    features: ["Cancelación de ruido", "30h de batería", "Carga rápida", "Bluetooth 5.0"]
+    features: ["Acero inoxidable", "Mejor duración", "Gran calidad"]
   };
 
   const upsellProduct = {
-    name: "Funda Premium + Cargador Inalámbrico",
+    name: "Liquido frenos + Liquido refrigerante",
     price: 49.99,
     originalPrice: 79.99,
     savings: 30,
